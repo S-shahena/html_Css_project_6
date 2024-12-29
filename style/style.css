@@ -1,0 +1,190 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+
+}
+
+/* profile_section */
+.profile_section{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: rgb(194, 118, 19); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/* profile_card */
+.profile_card{
+    max-width: 300px;
+    /* width: 100%; */
+    height: 350px;
+   background-color: aliceblue;
+   box-shadow: 10px 10px 0px 10px  aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+/* profile_img */
+.profile_img{
+    /* background-color: blue; */
+
+}
+
+.profile_img img{
+    height: 100px;
+    max-width: 100px;
+    width: 100%;
+    border: 3px solid black;
+    padding: 2px;
+    border-radius: 50%;
+    background-size: cover;
+
+}
+
+/* profile_name */
+
+.profile_name{
+    /* background-color: aliceblue; */
+    padding: 2px;
+    text-align: center;
+    font-size:13px;
+}
+/* div */
+.div{
+    background-color: aliceblue;
+}
+
+/* profile_link */
+
+.profile_link {
+    width: 150px;
+    text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+    /* padding: 0px 10px; */
+
+
+}
+
+.profile_link a{
+    font-size: 20px;
+   
+    
+}
+
+.profile_link .fa-facebook{
+color: #4b7bec;
+
+}
+.profile_link .fa-twitter{
+color: #45aaf2;
+}
+.profile_link .fa-instagram{
+color: #fc5c65;
+
+}
+.profile_link .fa-youtube{
+ color: #eb3b5a;
+
+}
+
+/* profile_btn */
+.profile_btn{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    color: antiquewhite;
+   
+
+
+}
+.profile_btn .btn_1:hover{
+  background-color: #c51515;
+  color: white;
+  padding: 2px;
+  cursor: pointer;
+
+}
+.profile_btn .btn_2:hover{
+    background-color: #4b7bec;
+    color: white;
+    padding: 2px;
+    cursor: pointer;
+
+}
+
+.profile_comment{
+   text-align: center;
+   margin-left: 20px;
+}
+.profile_comment a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+body{
+    width: 100vh;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;  
+    position: relative;
+    vertical-align: middle;
+
+} */
+
+/* div{
+    background-color: blue;
+    padding: 2px;
+    position: relative;
+    top: 0;
+    left: 0;
+} */
+
+/* img{
+    position: absolute;
+    width: 100%;
+    max-width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+} */
+/* 
+div{
+    background-image: url(/src/profile_picture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} */
